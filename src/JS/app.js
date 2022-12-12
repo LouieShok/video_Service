@@ -51,7 +51,7 @@ function submitNewVideo(){
  processData: false,
  type: 'POST',
  success: function(data){
-
+ alert(data)
  }
  });
  
