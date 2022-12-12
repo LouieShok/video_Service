@@ -40,7 +40,7 @@
             <div class="col-2"  ></div>
 
             <div class="col-8" style="text-align: center;">
-              <h3>Admin Video Library</h3>
+              <h1>Admin Video Library</h1>
             </div>
 
             <div class="col-2"  ></div>
@@ -51,36 +51,9 @@
             <div class="col-2"  ></div>
 
             <div class="col-8" style="text-align: left;border-bottom:1px solid #222222;">
-            <div id="userPage"> <button class="btn_popup" onclick='popupFormLogin()'>Login | Account</button>
-
-              <div class ="popup-login" id="formlogin">
-                <form action="/index.html" class="containerForm">
-                  <h2>Login</h2>
-
-                  <label for="username"><b><u>Username</u></b></label>
-                  <input type="text" placeholder="Enter Username" name="username" required>
-
-                  <label for="pword"><b><u>Password</u></b></label>
-                  <input type="password" placeholder="Enter password" name="pword" required>
-
-                  <button type="submit" class="btn">Login</button>
-                  <button type="button" button="btn cancel" onclick="closepopupForm()">Close Login</button>
-                 </form>
-              </div>
             
-              <script>
-                function popupFormLogin() {
-                  document.getElementById("formlogin").style.display = "block";
-                  
-                }
-  
-                function closepopupForm() {
-                  document.getElementById("formlogin").style.display = "none";
-                }
-              </script>
-            </div>   
               <div id="loginOnly">
-            <button id="Logout" onclick="document.location='index.html'">Logout</button>
+            <button id="Logout" onclick="document.location='user.html'">User's View</button>
 
 
               
